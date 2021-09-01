@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1296875" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1296875" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_main.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p1_list_view.xml" value="0.1" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p2_custom_list_view_with_array_list_using_array_adapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p3_custom_grid_view_images.xml" value="0.153125" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p3_image_display_next.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p4_complete_app_add_delete_run_time.xml" value="0.10572916666666667" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/layoutdesign.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/p2listlayout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/p3griditemlayout.xml" value="0.1" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/p4listlayout.xml" value="0.10572916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
