@@ -29,41 +29,20 @@ public class P4CompleteAppAddDeleteRunTime extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_p4_complete_app_add_delete_run_time);
-        os_details= new ArrayList<>();
+        os_details = new ArrayList<>();
 
 
-        adapter=new P4CustomAdapter(this,R.layout.p4listlayout,os_details);
-        lv=findViewById(R.id.custom_lv);
-        e=findViewById(R.id.input);
+        adapter = new P4CustomAdapter(this, R.layout.p4listlayout, os_details);
+        lv = findViewById(R.id.custom_lv);
+        e = findViewById(R.id.input);
         lv.setAdapter(adapter);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(), "Clicked on "+ ++position +" item", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Clicked on " + ++position + " item", Toast.LENGTH_SHORT).show();
             }
         });
-        imageView = (ImageView)findViewById(R.id.imageViewDisplay);
-        button = (Button)findViewById(R.id.buttonLoadPicture);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openGallery();
-            }
-        });
-    }
-
-    private void openGallery() {
-        Intent gallery = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
-        startActivityForResult(gallery, PICK_IMAGE);
-    }
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data){
-        super.onActivityResult(requestCode, resultCode, data);
-        if (resultCode == RESULT_OK && requestCode == PICK_IMAGE){
-            imageUri = data.getData();
-            imageView.setImageURI(imageUri);
-        }
-    }
+         }
     public void addData(View v){
         os_details.add(new P4Item(e.getText().toString(),R.drawable.img));
         adapter.notifyDataSetChanged();

@@ -46,7 +46,7 @@ public class P4CustomAdapter extends ArrayAdapter<P4Item> {
             @Override
             public void onClick(View v) {
                 if(items.get(position).image_resource_id!=R.drawable.img_1)
-                    items.get(position).image_resource_id=R.drawable.img_1;
+                    items.get(position).image_resource_id=0;
                 notifyDataSetChanged();
             }
         });
