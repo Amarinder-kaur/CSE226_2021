@@ -19,31 +19,23 @@ public class P11BroadCastManifest extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_p11_broad_cast_manifest);
         b1 = (Button) findViewById(R.id.button);
-
         receiver = new P11UserDefinedMsgBroadcast();
         intentFilter = new IntentFilter("com.example.cse226_2021.SOME_ACTION");
-
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                Intent intent = new Intent("com.example.cse226_2021.SOME_ACTION");
                 sendBroadcast(intent);
             }
-        });
-
-
-    }
+        }); }
     @Override
     protected void onResume() {
         super.onResume();
         registerReceiver(receiver, intentFilter);
-
     }
-
     @Override
     protected void onDestroy() {
         super.onDestroy();
-
         unregisterReceiver(receiver);
 
     }
