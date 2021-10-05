@@ -6,6 +6,11 @@
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1296875" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1296875" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_main.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p10_radom_bound_service.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p11_broad_cast_manifest.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p12_charger_connected_dynamic_broadcast.xml" value="0.1" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p14_list_floating_action_button.xml" value="0.1" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p15_floating_action_list.xml" value="0.11822916666666666" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p1_list_view.xml" value="0.1" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p2_custom_list_view_with_array_list_using_array_adapter.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p3_custom_grid_view_images.xml" value="0.153125" />
@@ -14,6 +19,8 @@
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p5_recycler_view_example.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p6_asyn_task_list_progress_bar.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p7_asyn_task_image_download.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p8_music_service.xml" value="0.153125" />
+        <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/activity_p9_bound_service_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/layoutdesign.xml" value="0.17864583333333334" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/p2listlayout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AKaurPahwa/AndroidStudioProjects/CSE226_2021/app/src/main/res/layout/p3griditemlayout.xml" value="0.1" />

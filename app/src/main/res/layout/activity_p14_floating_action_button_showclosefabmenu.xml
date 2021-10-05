@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P14FloatingActionButtonShowCloseFabMenu">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_height="45dp"
+        android:layout_width="45dp"
+        android:id="@+id/fab3" app:srcCompat="@android:drawable/ic_btn_speak_now" android:layout_margin="5dp"
+        android:layout_marginTop="300dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_height="45dp"
+        android:layout_width="45dp"
+        android:id="@+id/fab2" app:srcCompat="@android:drawable/ic_menu_camera" android:layout_margin="5dp"
+        android:layout_marginTop="300dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_height="45dp"
+        android:layout_width="45dp"
+        android:id="@+id/fab1" app:srcCompat="@android:drawable/ic_dialog_map" android:layout_margin="5dp"
+        android:layout_marginTop="300dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:id="@+id/fab" app:srcCompat="@android:drawable/ic_dialog_email"
+        android:layout_margin="5dp" android:layout_gravity="bottom|end"/>
+</LinearLayout>
