@@ -26,28 +26,26 @@ public class P14FloatingActionButtonShowCloseFabMenu extends AppCompatActivity {
 
                 } else
                     showFABMenu();
-
-            }
+         }
         });
     }
-
     private void showFABMenu() {
         isFABOpen = true;
-        fab1.setVisibility(View.VISIBLE);
-        fab2.setVisibility(View.VISIBLE);
-        fab3.setVisibility(View.VISIBLE);
-        //fab1.animate().translationY(-getResources().getDimension(R.dimen.standard_55));
-        //fab2.animate().translationY(-getResources().getDimension(R.dimen.standard_105));
-        //fab3.animate().translationY(-getResources().getDimension(R.dimen.standard_155));
+        //fab1.setVisibility(View.VISIBLE);
+        //fab2.setVisibility(View.VISIBLE);
+        //fab3.setVisibility(View.VISIBLE);
+        fab1.animate().translationY(-getResources().getDimension(R.dimen.standard_55));
+        fab2.animate().translationY(-getResources().getDimension(R.dimen.standard_105));
+        fab3.animate().translationY(-getResources().getDimension(R.dimen.standard_155));
     }
 
     private void closeFABMenu() {
         isFABOpen = false;
-        fab1.setVisibility(View.INVISIBLE);
-        fab2.setVisibility(View.INVISIBLE);
-        fab3.setVisibility(View.INVISIBLE);
-        // fab1.animate().translationY(0);
-        //fab2.animate().translationY(0);
-        //fab3.animate().translationY(0);
+        //fab1.setVisibility(View.INVISIBLE);
+        //fab2.setVisibility(View.INVISIBLE);
+        //fab3.setVisibility(View.INVISIBLE);
+         fab1.animate().translationY(0);
+        fab2.animate().translationY(0);
+        fab3.animate().translationY(0);
     }
 }
